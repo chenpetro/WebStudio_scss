@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --footer-color: #2f303a;
+  --header-color: #ececec;
+  --background-general: #ffffff;
+  --button-color: #2196f3;
+  --background-team: #f5f4fa;
+  --dark-color: #212121;
+  --text-color: #757575;
+  --footer-contacts: #ffffff99;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: var(--background-general);
+}
+
+header {
+  font-weight: 500;
+}
+.header-navigation{
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  height: 80px;
+  flex-direction: row;
+}
+.header-navigation a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+
+.logo {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.logo-web {
+  color: var(--button-color);
+}
+.header-logo-studio {
+  color: var(--dark-color);
+}
+
+.header-list{
+  display: flex;
+  width: 281px;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  margin-right: 300px;
+}
+
+.header-contacts{
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  }
+
+  .header-tel{
+    margin-left: 50px;
+  }
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  color: var(--button-color);
+}
+
+.main-title {
+  background-color: var(--footer-color);
+  height: 600px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+  }
+
+.main_banner-button{
+    background-color: var(--button-color);
+  color: var(--background-general);
+  font-weight: 700;
+  font-size: 16px;
+  width: 212px;
+  height: 50px;
+  letter-spacing: 0.06em;
+  margin-top: 30px;
+  border-radius: 4px;
+  border-style: none;
+}
+
+.main_banner-main_text {
+  width: 696px;
+  height: 120px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--background-general);
+  text-transform: uppercase;
+
+
+}
+
+.advantages-title_img, .team-title {
+  color: var(--dark-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.advantages-name {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.advantages-list{
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.advantages-img_list{
+ display: flex;
+ width: 1170px;
+ margin: 0 auto;
+ justify-content: space-between;
+ margin-bottom: 94px;
+ margin-top: 50px;
+}
+
+.advantages-attention, .advantages-punctuality, .advantages-planning, .advantages-technologies{
+  width: 270px;
+}
+
+.advantages-attention::before{
+  content: "";
+  background-image: url("../img/antenna1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--background-team);
+  width: 270px;
+  height: 120px;
+  display: flex;
+ }
+
+ .advantages-punctuality::before{
+  content: "";
+  background-image: url("../img/clock1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--background-team);
+  width: 270px;
+  height: 120px;
+  display: flex;
+ }
+
+ .advantages-planning::before{
+  content: "";
+  background-image: url("../img/diagram1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--background-team);
+  width: 270px;
+  height: 120px;
+  display: flex;
+ }
+
+ .advantages-technologies::before{
+  content: "";
+  background-image: url("../img/astronaut1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--background-team);
+  width: 270px;
+  height: 120px;
+  display: flex;
+ }
+
+.team {
+  background-color: var(--background-team);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-title{
+  padding-bottom: 50px;
+}
+footer {
+  background-color: var(--footer-color);
+}
+
+.team-list{
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.team-item {
+  width: 270px;
+  height: 368px;
+  top: 1632px;
+  left: 215px;
+  background-color: var(--background-general);
+  text-align: center;
+}
+
+.team-name {
+  color: var(--dark-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  
+  margin-top: 30px;
+}
+
+.team-position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  
+  padding-top: 10px;
+   }
+
+.footer-logo-studio {
+  color: var(--background-general);
+}
+
+.team-image{
+  padding-bottom: 30px;
+}
+
+.footer-item {
+  color: var(--background-general);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footer-email {
+  color: var(--footer-contacts);
+  padding-top: 9px;
+}
+
+.footer-tel {
+  color: var(--footer-contacts);
+  padding-top: 9px;
+  padding-bottom: 60px;
+}
+
+.footer-list{
+  display: block;
+  padding-top: 20px;
+}
+
+.footer{
+  width: 1170px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 60px;
+  }

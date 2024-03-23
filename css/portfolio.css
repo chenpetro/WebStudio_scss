@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --footer-color: #2f303a;
+  --header-color: #ececec;
+  --background-general: #ffffff;
+  --button-color: #2196f3;
+  --background-team: #f5f4fa;
+  --dark-color: #212121;
+  --text-color: #757575;
+  --footer-contacts: #ffffff99;
+  --item-border: #eeeeee;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+header {
+  font-weight: 500;
+  border-color: var(--header-color);
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 94px;
+}
+
+.header-navigation{
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  height: 80px;
+  flex-direction: row;
+}
+.header-navigation a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+
+.logo {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.logo-web {
+  color: var(--button-color);
+}
+.header-logo-studio {
+  color: var(--dark-color);
+}
+
+.header-list{
+  display: flex;
+  width: 281px;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  margin-right: 300px;
+}
+
+.header-contacts{
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  }
+
+  .header-tel{
+    margin-left: 50px;
+  }
+
+li {
+  list-style-type: none;
+}
+
+.main-navigation{
+display: flex;
+width: 575px;
+height: 54px;
+margin: 0 auto;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+a:hover {
+  color: var(--button-color);
+}
+
+.main-header {
+  background-color: var(--footer-color);
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+}
+
+footer {
+  background-color: var(--footer-color);
+}
+
+.footer{
+width: 1170px;
+margin: 0 auto;
+text-align: left;
+}
+
+button {
+  background-color: var(--background-team);
+  width: 125px;
+  height: 38px;
+  top: 174px;
+  left: 593px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button-all{
+  width: 73px;
+}
+
+.button-web_sites{
+  width: 125px;
+}
+
+.button-addons{
+  width: 112px;
+}
+
+.button-design{
+  width: 103px;
+}
+
+.button-marketing{
+  width: 130px;
+}
+
+button:hover {
+  background-color: var(--button-color);
+  color: var(--background-general);
+}
+
+li {
+  border: var(--dark-color);
+  border-width: 1px;
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.main-list{
+display: flex;
+width: 1170px;
+margin: 0 auto;
+justify-content: space-between;
+flex-wrap: wrap;
+height: 1272px;
+align-content: space-between;
+margin-bottom: 94px;
+}
+
+.main-item {
+  width: 370px;
+  height: 404px;
+  border-color: var(--item-border);
+  border-width: 1px;
+  border-style: solid;
+}
+h5 {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.footer-logo-studio {
+  color: var(--background-general);
+}
+.footer-item {
+  color: var(--background-general);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footer-email {
+  color: var(--footer-contacts);
+  padding-top: 9px;
+}
+
+.footer-tel {
+  color: var(--footer-contacts);
+  padding-top: 9px;
+  padding-bottom: 60px;
+}
+
+.footer-list{
+  display: block;
+  padding-top: 20px;
+}
+
+.footer{
+  width: 1170px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 60px;
+  }
