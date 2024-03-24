@@ -9,6 +9,7 @@
   --dark-color: #212121;
   --text-color: #757575;
   --footer-contacts: #ffffff99;
+  --team-color: #2F303A66;
 }
 
 body {
@@ -82,26 +83,31 @@ a:hover {
 }
 
 .main-title {
-  background-color: var(--footer-color);
   height: 600px;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
   padding-top: 200px;
   align-items: center;
+  background-image: url("../img/team.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.75);
   }
 
 .main_banner-button{
-    background-color: var(--button-color);
+  background-color: var(--button-color);
   color: var(--background-general);
   font-weight: 700;
   font-size: 16px;
   width: 212px;
   height: 50px;
   letter-spacing: 0.06em;
+  
   margin-top: 30px;
   border-radius: 4px;
   border-style: none;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .main_banner-main_text {
@@ -170,7 +176,7 @@ a:hover {
 
 .advantages-attention::before{
   content: "";
-  background-image: url("../img/antenna1.png");
+  background-image: url("../img/antenna.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--background-team);
@@ -181,7 +187,7 @@ a:hover {
 
  .advantages-punctuality::before{
   content: "";
-  background-image: url("../img/clock1.png");
+  background-image: url("../img/clock.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--background-team);
@@ -192,7 +198,7 @@ a:hover {
 
  .advantages-planning::before{
   content: "";
-  background-image: url("../img/diagram1.png");
+  background-image: url("../img/diagram.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--background-team);
@@ -203,7 +209,7 @@ a:hover {
 
  .advantages-technologies::before{
   content: "";
-  background-image: url("../img/astronaut1.png");
+  background-image: url("../img/astronaut.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--background-team);
@@ -239,6 +245,8 @@ footer {
   left: 215px;
   background-color: var(--background-general);
   text-align: center;
+  box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F;
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
