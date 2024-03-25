@@ -155,7 +155,7 @@ button:hover {
 li {
   border: var(--dark-color);
   border-width: 1px;
-}
+  }
 
 .main-text {
   font-weight: 400;
@@ -164,6 +164,7 @@ li {
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--text-color);
+  margin-left: 24px;
 }
 
 .main-list{
@@ -197,6 +198,8 @@ h5 {
   line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
+  
+  margin-left: 24px;
 }
 
 .footer-logo-studio {
