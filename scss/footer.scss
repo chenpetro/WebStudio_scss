@@ -1,0 +1,103 @@
+
+.footer{
+  background-color: var(--footer-color);
+  &-wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+    &-left {
+      width: 231px;
+      text-align: left;
+      padding-top: 60px;
+      &-list {
+        display: block;
+        padding-top: 20px;
+        width: 231px;
+        &-item {
+          color: var(--background-general);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.03em;
+          text-align: left;
+          &-email {
+            color: var(--footer-contacts);
+            padding-top: 9px;
+          }
+          &-tel {
+            color: var(--footer-contacts);
+            padding-top: 9px;
+            padding-bottom: 60px;
+          }
+        }
+      }
+    }
+    &-join {
+      width: 206px;
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 72px;
+      margin-left: 70px;
+      &-text {
+        width: 116px;
+        height: 16px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.41px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--background-general);
+      }
+      &-logos {
+        width: 206px;
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        cursor: pointer;
+        &-logo {
+          display: inline-block;
+          width: 44px;
+          height: 44px;
+          background-size: cover;
+          transition-property: background-image;
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &-instagram {
+          background-image: url("../img/instagramfooter.svg");
+        }
+        &-twitter {
+          background-image: url("../img/twitterfooter.svg");
+        }
+        &-facebook {
+          background-image: url("../img/facebookfooter.svg");
+        }
+        &-linkedin {
+          background-image: url("../img/linkedinfooter.svg");
+        }
+        &-instagram:hover,
+        &-logo:focus {
+          background-image: url("../img/instagramhover.svg");
+        }
+        &-twitter:hover,
+        &-logo:focus {
+          background-image: url("../img/twitterhover.svg");
+        }
+        &-facebook:hover,
+        &-logo:focus {
+          background-image: url("../img/facebookhoover.svg");
+        }
+        &-linkedin:hover,
+        &-logo:focus {
+          background-image: url("../img/linkedinhoover.svg");
+        }
+      }
+    }
+  }
+}
+
+.webstudio-logo-footer {
+  color: var(--background-general);
+}

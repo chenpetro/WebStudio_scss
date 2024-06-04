@@ -1,0 +1,86 @@
+.header {
+  font-weight: 500;
+  &-navigation {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    height: 80px;
+    flex-direction: flex;
+    & a {
+      text-decoration: none;
+      color: var(--dark-color);
+    }
+    &-list {
+      display: flex;
+      width: 286px;
+      justify-content: space-between;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      margin-left: 93px;
+      margin-right: 313px;
+    }
+    &-contacts {
+      display: flex;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      &-tel {
+        margin-left: 30px;
+        width: 142px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.41px;
+        letter-spacing: 0.02em;
+        &-telephone {
+          display: inline-block;
+          width: 10px;
+          height: 16px;
+          background-image: url("/img/smartphone.svg");
+          margin-right: 10px;
+        }
+      }
+      &-email {
+        width: 161px;
+        height: 16px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.41px;
+        letter-spacing: 0.02em;
+        &-envelope {
+          display: inline-block;
+          width: 16px;
+          height: 12px;
+          background-image: url("/img/envelope.svg");
+          margin-right: 10px;
+        }
+      }
+      &-email-envelope:hover,
+      &-logo:focus {
+        background-image: url("../img/envelopehover.svg");
+      }
+      &-tel-telephone:hover,
+      &-logo:focus {
+        background-image: url("../img/smartphonehover.svg");
+      }
+    }
+  }
+}
+
+.webstudio {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  &-web {
+    color: var(--button-color);
+  }
+  &-studio {
+    color: var(--dark-color);
+  }
+}

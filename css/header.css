@@ -1,0 +1,84 @@
+.header {
+  font-weight: 500;
+}
+.header-navigation {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  height: 80px;
+  flex-direction: flex;
+}
+.header-navigation a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+.header-navigation-list {
+  display: flex;
+  width: 286px;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+  margin-right: 313px;
+}
+.header-navigation-contacts {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header-navigation-contacts-tel {
+  margin-left: 30px;
+  width: 142px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+.header-navigation-contacts-tel-telephone {
+  display: inline-block;
+  width: 10px;
+  height: 16px;
+  background-image: url("/img/smartphone.svg");
+  margin-right: 10px;
+}
+.header-navigation-contacts-email {
+  width: 161px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+.header-navigation-contacts-email-envelope {
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  background-image: url("/img/envelope.svg");
+  margin-right: 10px;
+}
+.header-navigation-contacts-email-envelope:hover, .header-navigation-contacts-logo:focus {
+  background-image: url("../img/envelopehover.svg");
+}
+.header-navigation-contacts-tel-telephone:hover, .header-navigation-contacts-logo:focus {
+  background-image: url("../img/smartphonehover.svg");
+}
+
+.webstudio {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.webstudio-web {
+  color: var(--button-color);
+}
+.webstudio-studio {
+  color: var(--dark-color);
+}
