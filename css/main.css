@@ -84,6 +84,16 @@
   color: var(--dark-color);
 }
 
+.header-link:hover::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  border-bottom: 4px solid var(--button-color);
+  transform: translateY(15px);
+  border-radius: 2px;
+}
+
 .footer {
   background-color: var(--footer-color);
 }
@@ -212,7 +222,6 @@ a {
 
 li a:hover {
   color: var(--button-color);
-  text-decoration: underline;
 }
 
 .main-title {

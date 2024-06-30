@@ -21,6 +21,15 @@
   margin-left: 93px;
   margin-right: 313px;
 }
+.header-navigation-link:hover::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  border-bottom: 4px solid var(--button-color);
+  transform: translateY(15px);
+  border-radius: 2px;
+}
 .header-navigation-contacts {
   display: flex;
   margin-top: 32px;
